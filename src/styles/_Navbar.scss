@@ -8,10 +8,14 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    .logo {
+        margin-left: 20px;
+    }
     .list {
         display: flex;
         align-items: center;
         list-style-type: none;
+        cursor: pointer;
         .items {
             color: #FEFEFE;
             font-weight: 700;
