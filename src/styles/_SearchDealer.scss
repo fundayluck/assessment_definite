@@ -1,0 +1,62 @@
+.container-search-dealer {
+    margin-bottom: 10px;
+    .search {
+        margin-left: 210px;
+        p{
+            color: #9B9B9B;
+        }
+        input {
+            width: 436px;
+            height: 32px;
+            margin-bottom: 117px;
+        }
+    }
+    .container-card{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+        gap: 20px;
+        .card {
+            margin: 10px;
+            background-color: #f1f1f1;
+            width: 300px;
+            height: 200px;
+            border-radius: 20px;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            .card-item {
+                h3 {
+                    margin-left: 20px;
+                    font-family: 'MMC';
+                }
+                p {
+                    margin-left: 20px;
+                    font-size: 16px;
+                    font-family: 'MMC';
+                    font-weight: 400;
+                }
+                div {
+                    margin-top: 40px;
+                    margin-left: 20px;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    font-size: 12px;
+                    color: #4C4C4C;
+                }
+            }
+        }
+    }
+    .btn {
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+        .btn-dealer {
+            background-color: #000000;
+            color: #FFFFFF;
+            width: 130px;
+            height: 48px;
+            font-weight: 700;
+        }
+    }
+}
