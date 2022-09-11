@@ -1,0 +1,23 @@
+.footer {
+    hr {
+        border-top: 3px solid red;
+        border-radius: 4px;
+        margin-left: 600px;
+        margin-right: 600px;
+    }
+    p {
+        display: flex;
+        justify-content: center;
+        color: #4C4C4C;
+        font-weight: 700;
+        opacity: 0.5;
+        mix-blend-mode: normal;
+    }
+    .social-media {
+        display: flex;
+        justify-content: center;
+        img {
+            margin: 0px 18px 0px 18px;
+        }
+    }
+}
