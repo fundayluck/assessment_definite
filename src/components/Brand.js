@@ -5,7 +5,7 @@ const Brand = () => {
     return (
         <>
             <div className='brand'>
-                <img src={Images} />
+                <img src={Images} alt='' />
             </div>
             <div className='sub-brand'>
                 <h1 className='sub-brand-item-1'>FIND DEALER</h1>

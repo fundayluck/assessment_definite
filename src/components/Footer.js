@@ -11,11 +11,11 @@ const Footer = () => {
             <hr />
             <p className=''>STAY CONNECTED WITH US</p>
             <div className='social-media'>
-                <img src={Facebook} />
-                <img src={Twitter} />
-                <img src={Instagram} />
-                <img src={Youtube} />
-                <img src={Email} />
+                <img src={Facebook} alt='' />
+                <img src={Twitter} alt='' />
+                <img src={Instagram} alt='' />
+                <img src={Youtube} alt='' />
+                <img src={Email} alt='' />
             </div>
             <p>CONTACT US</p>
             <hr />

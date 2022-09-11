@@ -29,6 +29,7 @@
             display: flex;
             align-items: center;
             box-shadow: 2px 2px 10px grey;
+            cursor: pointer;
             .card-item {
                 h3 {
                     margin-left: 20px;
@@ -49,6 +50,9 @@
                     color: #4C4C4C;
                 }
             }
+        h1 {
+            color: #000000;
+        }
         }
     }
     .btn {
@@ -56,6 +60,7 @@
         display: flex;
         justify-content: center;
         .btn-dealer {
+            margin-bottom: 100px;
             background-color: #000000;
             color: #FFFFFF;
             width: 130px;
